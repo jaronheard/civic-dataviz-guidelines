@@ -4,12 +4,10 @@
 Civic is a data platform. Our data visualizations demonstrate the power of the Civic platform. We aim to show the viability of an open-systems, open-source approach to public data. These guidelines outline our approach to data visualization.
 
 ## Principles
-### Our data visualizations should be legible
-### Our data visualizations should be insightful
-### Our data visualizations should be professional
-### Our data visualizations should be data-rich
-### Our data visualizations should advance the public conversation
-### Our data visualizations should show the value of data in the hands of the community
+### Our data visualizations should
+* show the value of data in the hands of the community
+* be legible, clean, and professional
+* advance the public conversation
 
 ### Embrace imperfection
 > Data-driven doesn’t mean unmistakably true because data and the tools that collect it are human-made. Data is not pure fact, but evidence that filters reality in a very subjective way. It has the unique power to abstract our world and help us understand it, according to relevant factors that are different or constantly changing. *[IBM data visualization guidelines](https://www.ibm.com/design/language/experience/data-visualization)*
@@ -60,9 +58,23 @@ Data visualizations that show relationships imply meaning in those relationships
 ### Proper scaling
 ### Tooltips
 ### Accessibility
-* Low vision
-* Color blind
+>**Low vision**
+>For people who are blind, include text descriptions of any meaningful images that can be read by assistive technology (screen readers). A person with low vision is still able to perceive visual insights with the help of accessibility features and considerations.
+Provide the opportunity to increase the size of elements and focus on particular areas by zooming and magnifying.
+Follow the WCAG 2.0 Level AA guidelines for contrast — high contrast is crucial to improve legibility. Body text should have a contrast ratio of at least 4.5:1 (and large text should be at least 3:1) against its background color.
+Include textual content to provide alternatives to visual information (especially color).
+Use captions and always provide a table version of the visualization.
+Allow keyboard alternatives for navigating graphical user interfaces.
 
+>**Color blind**
+>The two most common forms of color blindness are deuteranomaly and deuteranopia — which together account for about 6% of men, and protanomaly and protanopia, which account for another 2%. Tritanopia is very rare, and affects less than 0.001% of men.
+
+>For those affected the two most difficult colors to distinguish are green and red. Stressing the contrast between dark and light values is a good way to make the colors recognizable. While hue and saturation have minimal effect on legibility, brightness differences are far more perceptible.
+
+>Easily distinguishable formats (like bar charts or treemaps) or markers (as used in scatter plots or maps) can supplement color to express information. Those work perfectly, even in black and white, and reduce problems for people with color blindness.
+Remember, the best way to support accessibility for all visual disabilities is to provide alternatives to visual information (especially color), using text and tabular versions of the visualization. 
+
+>*[IBM data visualization guidelines](https://www.ibm.com/design/language/experience/data-visualization)*
 ### Titles
 ### Responsiveness
 ### Interaction

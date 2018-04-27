@@ -42,11 +42,11 @@ Data visualizations that show relationships imply meaning in those relationships
 All data visualizations should have a short, but descriptive title. It may make sense to have a title as part of a card or as part of the actual visualization.
 
 ### Labels
-Labels should be consise and descriptive
-If possible, label elements directly instead of a legend
-Use bold text only for emphasis
-Avoid type rotation
-??small multiple legends??
+* Labels should be consise and descriptive
+* If possible, label elements directly instead of a legend
+* Use bold text only for emphasis
+* Avoid type rotation
+* ??small multiple legends??
 
 ### Colors
 

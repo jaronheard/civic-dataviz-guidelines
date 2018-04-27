@@ -34,9 +34,23 @@ Data visualizations that show relationships imply meaning in those relationships
 ### Pie/doughnut
 ### Maps
 
+### Tooltips
+
 ## Details
 
+### Titles
+All data visualizations should have a short, but descriptive title. It may make sense to have a title as part of a card or as part of the actual visualization.
+
+### Labels
+Labels should be consise and descriptive
+If possible, label elements directly instead of a legend
+Use bold text only for emphasis
+Avoid type rotation
+??small multiple legends??
+
 ### Colors
+
+
 ### Showing quantities
 * Commas
  * Always use commas for thousands separator
@@ -75,7 +89,6 @@ Allow keyboard alternatives for navigating graphical user interfaces.
 Remember, the best way to support accessibility for all visual disabilities is to provide alternatives to visual information (especially color), using text and tabular versions of the visualization. 
 
 >*[IBM data visualization guidelines](https://www.ibm.com/design/language/experience/data-visualization)*
-### Titles
 ### Responsiveness
 ### Interaction
 ### Small multiples

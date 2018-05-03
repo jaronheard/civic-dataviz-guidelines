@@ -7,6 +7,7 @@ Civic is a data platform. Our data visualizations demonstrate the power of the C
 ### Our data visualizations should
 * show the value of data in the hands of the community
 * be legible, clean, and professional
+* be accessible
 * advance the public conversation
 
 ### Embrace imperfection
@@ -70,8 +71,14 @@ All data visualizations should have a short, but descriptive title. It may make 
 ### Labelling and annotation
 ### Legends
 ### Proper scaling
+
+
 ### Tooltips
+
+
 ### Accessibility
+We support accesibility for all visual disabilities by providing alternatives to visual information, using text and tabular versions of the visualization. 
+
 >**Low vision**
 >For people who are blind, include text descriptions of any meaningful images that can be read by assistive technology (screen readers). A person with low vision is still able to perceive visual insights with the help of accessibility features and considerations.
 Provide the opportunity to increase the size of elements and focus on particular areas by zooming and magnifying.

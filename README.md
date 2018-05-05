@@ -1,14 +1,14 @@
 # Civic Data Visualization Guidelines
 
 ## Overview
-Civic is a data platform. Our data visualizations demonstrate the power of the Civic platform. We aim to show the viability of an open-systems, open-source approach to public data. These guidelines outline our approach to data visualization.
+Civic is a data platform. Our data visualizations demonstrate the power of the Civic platform. Our platform shows the viability of an open-systems, open-source approach to public data. These guidelines outline our approach to data visualization.
 
 ## Principles
 ### Our data visualizations should
 * show the value of data in the hands of the community
 * be legible, clean, and professional
+* be aware of bias
 * be accessible
-* advance the public conversation
 
 ### Embrace imperfection
 > Data-driven doesn’t mean unmistakably true because data and the tools that collect it are human-made. Data is not pure fact, but evidence that filters reality in a very subjective way. It has the unique power to abstract our world and help us understand it, according to relevant factors that are different or constantly changing. *[IBM data visualization guidelines](https://www.ibm.com/design/language/experience/data-visualization)*
@@ -17,25 +17,21 @@ Civic is a data platform. Our data visualizations demonstrate the power of the C
 A data visualization provides a lens and is a perspective on reality. Bias cannot be eliminated. There is no such thing as an unbiased data visualization. However, by being aware of bias, you can present the most accurate and useful perspectives on reality through your visualization. Societally, what is perceived as biased is based on the perspective of the observer. What data is collected, how data is collected, how data is calculated, how data is categorized, how data is contextualized, what data is presented, how data is visualized, etc... all inform bias.
 
 ### Show meaningful relationships
-Data visualizations that show relationships imply meaning in those relationships. Don’t make spurious relationship between disparate data. You may have heard the phrase “correlation does not imply causation”. Well, data visualizations that show correlation without context imply causation.
+Data visualizations that show relationships imply meaning in those relationships. Don’t make spurious relationship between disparate data. You may have heard the phrase “correlation does not imply causation”. Data visualizations that show correlation without context imply causation.
 
-
-### Data visualizations should be:
- * Be legible, clean, and professional
- * Communicate useful and accurate perspectives on reality
- * Aware of bias
+### Data density - impress but don't overwhelm
+Our data density should aim to impress but not overwhelm. Data visualizations should be dense with information and detail - humans are capable of absorbing a lot of visual information very quickly. However, it is easy to overwhelm by showing too many different types of relationships at one time.
 
 ## Chart types
+The Civic platform uses a reusable component library. Basic component should be used where possible, and new reusable component should be used
 ### Bar chart
 * horizontal
 * vertical
-
 ### Line chart
 ### Scatterplot
 ### Pie/doughnut
+### Data table
 ### Maps
-
-### Tooltips
 
 ## Details
 
@@ -47,10 +43,16 @@ All data visualizations should have a short, but descriptive title. It may make 
 * If possible, label elements directly instead of a legend
 * Use bold text only for emphasis
 * Avoid type rotation
-* ??small multiple legends??
+
+### Annotation
+* The Civic platform supports annotation
+* Data visualizations should be annotated to explain outliers and provide additional context
+
+### Tooltips
+* Our basic charts use tooltips to allow for a focused 
 
 ### Colors
-
+Additional information to follow
 
 ### Showing quantities
 * Commas
@@ -68,13 +70,11 @@ All data visualizations should have a short, but descriptive title. It may make 
 * Show units (e.g. dollar sign, percent)
 
 ### Responsiveness
-### Labelling and annotation
+Our data visualizations should look good on a phone and on a desktop computer.
+
 ### Legends
+
 ### Proper scaling
-
-
-### Tooltips
-
 
 ### Accessibility
 We support accesibility for all visual disabilities by providing alternatives to visual information, using text and tabular versions of the visualization. 
@@ -96,6 +96,9 @@ Allow keyboard alternatives for navigating graphical user interfaces.
 Remember, the best way to support accessibility for all visual disabilities is to provide alternatives to visual information (especially color), using text and tabular versions of the visualization. 
 
 >*[IBM data visualization guidelines](https://www.ibm.com/design/language/experience/data-visualization)*
-### Responsiveness
+
 ### Interaction
+Interaction should have a clear purpose.
+
 ### Small multiples
+The pattern of filtering small multiples is one of our preferred design patterns.

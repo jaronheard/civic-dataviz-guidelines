@@ -23,11 +23,14 @@ Data visualizations that show relationships imply meaning in those relationships
 Our data density should aim to impress but not overwhelm. Data visualizations should be dense with information and detail - humans are capable of absorbing a lot of visual information very quickly. However, it is easy to overwhelm by showing too many different types of relationships at one time.
 
 ## Chart types
-The Civic platform uses a reusable component library. Basic component should be used where possible, and new reusable component should be used
-### Bar chart
-* horizontal
-* vertical
+The Civic platform uses a reusable component library. Basic component should be used where possible, and new reusable components should be built instead of creating one-off visualizations.
 ### Line chart
+Line Charts track changes or trends over time and show the relationship between one or more variables. When showing variables over time, you should choose a Line Chart over a Bar Chart when the rate of change is more relevant than the relative magnitudes.
+### Bar chart
+* vertical
+Vertical Bar Charts are used to compare quantities of different categories or to show values over time. When showing variables over time, you should choose a Bar Chart over a Line Chart when the rate of change is more relevant than the relative magnitudes. If comparing quantities of more than 5 categories, use a Horizontal Bar Chart instead.
+* horizontal
+Horizontal Bar Charts are used to compare quantities of different categories (especially 6 or more)
 ### Scatterplot
 ### Pie/doughnut
 ### Data table
@@ -45,16 +48,16 @@ All data visualizations should have a short, but descriptive title. It may make 
 * Avoid type rotation
 
 ### Annotation
-* The Civic platform supports annotation
-* Data visualizations should be annotated to explain outliers and provide additional context
+* Annotation should be used to explain outliers and provide additional context
 
 ### Tooltips
-* Our basic charts use tooltips to allow for a focused 
+* Our basic charts use tooltips to enable close examination of individual data points
 
 ### Colors
-Additional information to follow
+More info to follow
 
 ### Showing quantities
+Civic uses a number formatter to ensure consistent formatting accross the platform.
 * Commas
  * Always use commas for thousands separator
 * Numbers and decimal places
@@ -70,11 +73,13 @@ Additional information to follow
 * Show units (e.g. dollar sign, percent)
 
 ### Responsiveness
-Our data visualizations should look good on a phone and on a desktop computer.
+Our data visualizations should look good on a phone and on a desktop computer. Generally, our approach to responsiveness is to scale everything - text and chart elements together. This approach may evolve.
 
 ### Legends
+If possible, elements should be directly labeled rather than using a legend. 
 
 ### Proper scaling
+Domain and scaling for axes should be set for each data visualization to ensure readability.
 
 ### Accessibility
 We support accesibility for all visual disabilities by providing alternatives to visual information, using text and tabular versions of the visualization. 

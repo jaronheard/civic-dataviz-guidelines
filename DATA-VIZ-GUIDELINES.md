@@ -27,14 +27,16 @@ The Civic platform uses a reusable component library. Basic component should be 
 ### Line chart
 Line Charts track changes or trends over time and show the relationship between one or more variables. When showing variables over time, you should choose a Line Chart over a Bar Chart when the rate of change is more relevant than the relative magnitudes.
 ### Bar chart
-* vertical
-Vertical Bar Charts are used to compare quantities of different categories or to show values over time. When showing variables over time, you should choose a Bar Chart over a Line Chart when the rate of change is more relevant than the relative magnitudes. If comparing quantities of more than 5 categories, use a Horizontal Bar Chart instead.
-* horizontal
-Horizontal Bar Charts are used to compare quantities of different categories (especially 6 or more)
+* Vertical Bar Charts are used to compare quantities of different categories or to show values over time. When showing variables over time, you should choose a Bar Chart over a Line Chart when the rate of change is more relevant than the relative magnitudes. If comparing quantities of more than 5 categories, use a Horizontal Bar Chart instead.
+* Horizontal Bar Charts are used to compare quantities of different categories (especially 6 or more)
 ### Scatterplot
+More info to follow
 ### Pie/doughnut
+More info to follow
 ### Data table
+More info to follow
 ### Maps
+More info to follow
 
 ## Details
 
